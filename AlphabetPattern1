@@ -1,0 +1,29 @@
+package com.pattern;
+
+public class AlphabetPattern1 {
+    public static void main(String[] args) {
+        int aplha = 65; // A
+        for (int i = 0; i <= 5; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print((char) (aplha + j) + ""); // 65+0 = 65 -> A
+
+            }
+            System.out.println();
+        }
+    }
+}
+/*
+
+A
+AB
+ABC
+ABCD
+ABCDE
+ABCDEF
+
+
+Uppercase A-Z starts from 65 to 90
+Lowercase a-z starts from 97 to 122
+
+
+ */
