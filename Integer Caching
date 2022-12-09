@@ -1,0 +1,20 @@
+package com.javaquestion;
+
+public class IntegerCaching {
+    public static void main(String[] args) {
+
+        // Integer caching range : -128 to 127
+        Integer num1 = 100;  // 100==100 : equal
+        Integer num2 = 100;  // 190==190 : unequal
+
+        if (num1 == num2) {
+            System.out.println("Both are equal");
+        } else {
+            System.out.println("Both are unequal");
+        }
+    }
+}
+/*
+comparing number between -128 to 127 will give you equal output
+after this range output will be unequal this is because of integer caching
+ */
