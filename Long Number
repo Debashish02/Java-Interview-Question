@@ -1,0 +1,14 @@
+package com.javaquestion;
+
+public class longnumber {
+    public static void main(String[] args) {
+        long longnumberwithoutL = 1000 * 60 * 60 * 24 * 365;
+        long longnumberwithL = 1000 * 60 * 60 * 24 * 365L;
+
+        System.out.println(longnumberwithoutL); //1471228928
+        System.out.println(longnumberwithL); // 31536000000
+    }
+}
+/*
+1471228928 : 36bits
+ */
