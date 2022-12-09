@@ -1,0 +1,10 @@
+package com.javaquestion;
+
+public class DivideBYZero {
+    public static void main(String[] args) {
+        System.out.println(2.0 / 0); //infinity
+    }
+}
+/*
+divide any number by zero
+ */
